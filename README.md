@@ -84,7 +84,7 @@ The system is **normalized, constraint-driven, and trigger-based**, designed for
 
 **Sample Use Cases:**
 
-```sql
+
 -- Search flights DEL → BOM on 2025-09-10 with ≥2 seats
 SELECT * FROM vw_flights_search
  WHERE origin='DEL' AND destination='BOM'
@@ -94,9 +94,9 @@ SELECT * FROM vw_flights_search
 
 -- List available seats on flight #1
 SELECT seat_no, cabin FROM seats WHERE flight_id=1 AND is_booked=0;
-```
 
----
+
+
 
 ##  Reports
 
@@ -108,5 +108,3 @@ SELECT seat_no, cabin FROM seats WHERE flight_id=1 AND is_booked=0;
   * Load factor % (occupancy rate)
 
 ---
-
-Would you like me to make this **README in a polished PDF (2–3 pages)** like project documentation, similar to the one you asked for earlier?
