@@ -82,10 +82,6 @@ The system is **normalized, constraint-driven, and trigger-based**, designed for
 
 ##  Example Views & Queries
 
-* **`vw_flight_availability`** → Seats booked/available by cabin
-* **`vw_flights_search`** → Searchable flight listings with seat availability
-* **`vw_booking_summary`** → Revenue, confirmed/cancelled bookings, load factor
-
 **Sample Use Cases:**
 
 ```sql
